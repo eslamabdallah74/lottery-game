@@ -1,0 +1,78 @@
+/* CSS for the lottery game */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    color: #143358;
+    font-size: 3em;
+    margin-top: 2em;
+}
+p {
+    color: #555;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+button {
+    padding: 10px 20px;
+    background-color: #143358;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2em;
+}
+
+.number-button {
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.number-button.selected {
+    background-color: #ff6961;
+    color: #fff;
+}
+
+.number-button.correct-number {
+    background-color: #add8e6;
+    color: #fff;
+}
+
+.play-again {
+    background-color: rgb(88, 198, 222);
+    color: white;
+}
+.go-home {
+    background-color: white;
+    color: black;
+}
+
+.cash-amount {
+    background-color: #7de26d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+.message {
+    padding: 10px;
+    background-color: whitesmoke;
+    color: #555;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border: 1px dashed saddlebrown;
+}
