@@ -3,6 +3,13 @@
 This is a simple lottery game built with Laravel Livewire. The game generates a list of 10 random numbers between 1 and 100 and the user has to choose one of the numbers. If the selected number is equal to the correct number, the user wins the game.
 
 ![Project Image](main.png)
+## Languages and Tools Used
+
+PHP
+Laravel
+Livewire
+HTML
+CSS
 
 ## Installation
 
